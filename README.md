@@ -12,14 +12,15 @@ I am new to composer, but my composer.json file looks like this
 {
     "repositories": [
         {
-            "url": "https://github.com/DevelopmentVSDevs/amazon-alexa-php.git",
+            "url": "https://github.com/DevelopmentVSDevs/amazon-alexa-php",
             "type": "git"
         }
     ],
     "require": {
-        "DevelopmentVSDevs/amazon-alexa-php": "^0.1.5"
+        "DevelopmentVSDevs/amazon-alexa-php": "dev-master as 1.0.x-dev"
     }
 }
+
 ```
 
 ### Requests
