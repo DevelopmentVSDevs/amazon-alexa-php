@@ -4,7 +4,23 @@ This library provides provides a convient interface for developing Amazon Alexa 
 
 ## Usage
 
-Install via composer: `composer require minicodemonkey/amazon-alexa-php`.
+***FORKED PROJECT***
+
+I am new to composer, but my composer.json file looks like this
+
+```
+{
+    "repositories": [
+        {
+            "url": "https://github.com/DevelopmentVSDevs/amazon-alexa-php.git",
+            "type": "git"
+        }
+    ],
+    "require": {
+        "DevelopmentVSDevs/amazon-alexa-php": "^0.1.5"
+    }
+}
+```
 
 ### Requests
 When Amazon Alexa triggers your skill, a HTTP request will be sent to the URL you specified for your app.
